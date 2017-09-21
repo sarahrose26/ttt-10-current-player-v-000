@@ -6,11 +6,11 @@ def turn_count(board)
       end
   end
   #this line tells the method to count occupied positions based on the conditional above
-  return counter 
+  return counter
 end
 
 def current_player(board)
-  if turn_count % 2 
+  if turn_count % 2
     return "X"
   else
     return "O"
