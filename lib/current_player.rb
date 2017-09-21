@@ -5,5 +5,6 @@ def turn_count(board)
   else
     board.each do |position|
       puts "O"
+    end
   end
 end
